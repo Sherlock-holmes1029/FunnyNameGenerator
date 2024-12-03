@@ -1,0 +1,38 @@
+export const languageData = {
+    en: {
+        prefixes: ['Fluffy', 'Wacky', 'Mega', 'Pickle', 'Zappy'],
+        adjectives: ['Mighty', 'Fierce', 'Brave', 'Clever', 'Shadow'],
+        nouns: ['Shawirma', 'Homos', 'Falafil', 'Mansaf', 'Mlokhyah',],
+        suffixes: ['ius', 'os', 'ich', 'khan', 'endra','san'],
+        ui: {
+            title: 'Funny Team Name Generator',
+            chooseLanguage: 'Choose Language:',
+            enterKeyword: 'Enter your keyword',
+            randomCheckbox: 'Generate a random name instead',
+            generateButton: 'Generate Names',
+            errorEnglish: 'Please enter an English keyword for English mode.',
+            errorArabic: 'Please enter an Arabic keyword for Arabic mode.',
+            likedNames: 'Liked Names',
+            generatedNames: 'Generated Names',
+            likeButton: 'Like',
+        },
+    },
+    ar: {
+        prefixes: ['القوي', 'المضحك', 'العظيم', 'الذكي', 'الغامض'],
+        nouns: ['شاورما', 'حمص', 'فلافل', 'منسف', 'ملوخية'],
+        names: ['شعراوي', 'أراجيل', 'فحماوي', 'زبادي', 'طياران','حنكليس',],
+        suffixes: ['يوس', 'وس', 'يش', 'خان', 'ندرا','اتش','سان'],
+        ui: {
+            title: 'مخترع أسماء الفرق المضحكة',
+            chooseLanguage: 'اختر اللغة:',
+            enterKeyword: 'أدخل الكلمة الرئيسية',
+            randomCheckbox: 'إنشاء اسم عشوائي بدلاً من ذلك',
+            generateButton: 'إنشاء أسماء',
+            errorEnglish: 'يرجى إدخال كلمة باللغة الإنجليزية عند اختيار اللغة الإنجليزية.',
+            errorArabic: 'يرجى إدخال كلمة باللغة العربية عند اختيار اللغة العربية.',
+            likedNames: 'الأسماء المفضلة',
+            generatedNames: 'الأسماء المخترعة',
+            likeButton: 'أعجبني',
+        },
+    },
+};

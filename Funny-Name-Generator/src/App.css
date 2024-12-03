@@ -1,0 +1,82 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+
+input[type='checkbox']{
+  width: auto;
+}
+
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding-top: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #e64a19;
+}
+
+img{
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 300px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f0f0f0;
+  margin: 10px auto;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.center-columns{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+ .center-li li{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
