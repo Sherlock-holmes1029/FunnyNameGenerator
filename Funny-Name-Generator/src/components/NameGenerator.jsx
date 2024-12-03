@@ -201,7 +201,7 @@ const NameGenerator = ({ setTeamNames, teamNames }) => {
             <li key={index}>
               {name}
               <button onClick={() => likeName(name)}>
-                <i class="fa-solid fa-heart"></i>
+                <i className="fa-solid fa-heart"></i>
               </button>
             </li>
           ))}
